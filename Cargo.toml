@@ -1,0 +1,15 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "conf_from_env"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cfe_progmacro = { path = "./cfe_progmacro" }
+
+dotenv = "0.15.0"
+
+syn = "1.0.105"
+quote = "1.0.21"
+
+
