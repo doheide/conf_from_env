@@ -10,7 +10,6 @@ readme = "README.md"
 description = "Configurations and secrets defined in structs are automatically read from environment variables."
 homepage = "https://github.com/doheide/conf_from_env"
 repository = "https://github.com/doheide/conf_from_env"
-keywords = ["config", "environment variables"]
 
 [lib]
 proc-macro = true
