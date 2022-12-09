@@ -15,6 +15,9 @@ REDIS_PASSWORD=lili
 ````
 
 ```` rust
+use conf_from_env::{ConfigAndSecrets, SetStructFromEnv};
+
+#[derive(SetStructFromEnv, Clone)]
 pub struct Config {
     pub log_level: String,
 
